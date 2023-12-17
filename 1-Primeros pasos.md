@@ -22,5 +22,6 @@
 | reboot | restart la maquina     |
 | shutdown |apagar la maquina      |
 | poweroff | apagar la maquina     |
-| systemctl restart | retart la maquina     |
-| systemctl poweroff | apagar la maquina     |
+| shutdown –h +tiempo | apagar la maquina por minutos por ejmeplo **shutdown -h +60** y eso significa q la maquina e apaga en 60 minutos     |
+| shutdown –h hora | apagar la maquina a una hora exacta por ejmeplo **shutdown -h 22:30** osea q la maquina se apaga a esta hora exactamente    |
+| shutdown –c | cancelar el plan de apagarlo automaticamente a una hora o en unos minutos    |
