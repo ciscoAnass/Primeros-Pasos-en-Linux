@@ -18,3 +18,9 @@
 | uname -a |  mostrar todas las informaciones sobre la sistema operativa     |
 | alias | da el sentido de un comando a una palabra por ejmeplo **alias ms7='clear'** or **alias fecha='date'** |
 | unalias |  para borrar el alias crado y su estructura es **unalias ms7** or **unalias fecha**     |
+| exit | salir del terminal   |
+| reboot | restart la maquina     |
+| shutdown |apagar la maquina      |
+| poweroff | apagar la maquina     |
+| systemctl restart | retart la maquina     |
+| systemctl poweroff | apagar la maquina     |
