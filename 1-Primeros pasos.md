@@ -1,9 +1,15 @@
-# COmandos Basicos
+# Primeros Pasos
 ***
 
 
 | Comando        | Descripcion    |
 | ------------- |:-------------: |
-| col 3 is      | right-aligned |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
+| ls      | mostar lo qhay dentro un carpeta |
+| clear      | limpiar lo q hay por la pantalla del Terminal      |
+| date |  ensenar la fecha a traves del terminal     |
+| cal |  ensenar el calendario a traves del terminal     |
+| date |       |
+| date |       |
+| date |       |
+| date |       |
+| date |       |
