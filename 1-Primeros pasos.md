@@ -8,8 +8,11 @@
 | clear      | limpiar lo q hay por la pantalla del Terminal      |
 | date |  ensenar la fecha a traves del terminal     |
 | cal |  ensenar el calendario a traves del terminal     |
-| date |       |
-| date |       |
-| date |       |
-| date |       |
-| date |       |
+| pwd | ensenar tu ubicacion por ejemplo : pwd >>> /home/1asir/Desktop      |
+| whoami |  para saber el nombre usuario    |
+| who | par ver todos los uuarios q estan onectados con la fecha y a hora de su ultima conexion       |
+| last | ver el historico de entradas al linux ( historico de conexiones )   |
+| passwd | crear o cmabiar la contrasena      |
+| tty |  ver en q termnal estoy (/dev/pts/0 )     |
+| uname | mostrar el nombre del Kernel      |
+| uname -a |  mostrar todas las informaciones sobre la sistema operativa     |
