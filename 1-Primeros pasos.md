@@ -16,3 +16,4 @@
 | tty |  ver en q termnal estoy (/dev/pts/0 )     |
 | uname | mostrar el nombre del Kernel      |
 | uname -a |  mostrar todas las informaciones sobre la sistema operativa     |
+| alias | da el sentido de un comando a una palabra por ejmeplo **alias ms7='clear'** or **alias fecha='date'** |
