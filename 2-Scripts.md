@@ -37,6 +37,22 @@ First let's talk about some rules that we have to respect :
   >
   > echo " has sacado $nota "
 
+
+- SO when we execute the script , the result gonna be **Has sacado 10** because $nota did take the value of 10 before
+- 
+***
+- As well we have a great tool on Scripting which is **read -p** , this tool is usable for the the automation of changeble value
+  
+- For example : in  company we have more than 40 users ( workers ) and every worker have a different name , and we want to create a script that every time they log-in the script say **( Hello #User , have good day)** , so to do that we dont have to create a 40 script and every script with a user name becuase **read -p** gonna help us
+
+- So we just gonna put
+
+  > read -p " What is your username " username
+  > 
+  >echo "Hello $username , have a good day"
+
+
+  so basicly we just ask the user about his username and when he put his username , the script automate the answer to ( hello $username , have a good day ) wich make every worker name automated by answering with his name
 <img title="script1" alt="script" src="/img/readp.png">
 
 <img title="script1" alt="script" src="/img/valuesresult.png">
