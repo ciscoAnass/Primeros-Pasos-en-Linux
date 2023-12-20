@@ -47,7 +47,7 @@
 
 **/home** : where the users live , basicly is where every created user (included their directories) in the OS located .
 
-**/lib** : Library
+**/lib** : Shared Library files ( libreria compartida)
 
 **/media** : responsible for the connection with removable devices such as usb 
 
@@ -57,9 +57,7 @@
 
 **/sbin** : Root Commands tht we should execute it as root  as  ( Adduser , ifconfig , userdel ... ) .
 
-**/srv** :
-
-**/tmp** :
+**/tmp** : Temporary Files
 
 **/usr** : we can find games and variables files , for example we have a command ls in /bin so we gonna find him again as the same in /usr/bin 
 
@@ -67,4 +65,4 @@
 
 **/root** : is the Root by himself
 
-**/proc** :
+**/proc** : everything we do for the system is saved there
