@@ -30,7 +30,10 @@ First let's talk about some rules that we have to respect :
 <img title="script1" alt="script" src="/img/allvalues.png">
 
 - TO crate a value we should respect this syntax 'Keyword' = 'Value'
+
   for example
+
   > nota=10
+  >
   > echo " has sacado $nota "
 
