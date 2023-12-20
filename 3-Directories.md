@@ -34,3 +34,6 @@
 ***
 
 # Directories Tree
+
+
+<img src="directories.jpeg" alt="directories" />
