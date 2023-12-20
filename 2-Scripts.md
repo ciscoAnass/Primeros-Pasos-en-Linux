@@ -23,3 +23,14 @@ First let's talk about some rules that we have to respect :
 - If we want to skip the line in the text so we do use **\n** ( it's look like <br> in html )
 
 <img title="script1" alt="script" src="/img/skipline.png">
+
+***
+# Values
+
+<img title="script1" alt="script" src="/img/allvalues.png">
+
+- TO crate a value we should respect this syntax 'Keyword' = 'Value'
+  for example
+  > nota=10
+  > echo " has sacado $nota "
+
