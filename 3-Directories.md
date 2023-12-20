@@ -35,5 +35,6 @@
 
 # Directories Tree
 
+<img title="script1" alt="script" src="/img/directories.jpeg">
 
 <img src="directories.jpeg" alt="/img/directories">
