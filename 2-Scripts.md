@@ -16,5 +16,5 @@ First let's talk about some rules that we have to respect :
 
 <img title="script1" alt="script" src="/img/script1.png">
 
-- We can see in the picture that we did create a script file and we did put **#!/bin/bash** int eh first line and in the second line i put a comment which is the authors of the file which is optional , u can put it or no and finally we did put **echo "Hello world"** which mean print hello word so when we execute the script , we get Hello World as the result of execution .
+- We can see in the picture that we did create a script file and we did put **#!/bin/bash** int eh first line and in the second line i put a comment (author) of the file which is optional , u can put it or no and finally we did put **echo "Hello world"** which mean print hello word so when we execute the script , we get Hello World as the result of execution .
 <img title="script1" alt="script" src="/img/execscript.png">
