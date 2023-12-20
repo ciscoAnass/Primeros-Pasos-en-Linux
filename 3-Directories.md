@@ -37,7 +37,7 @@
 
 <img title="script1" alt="script" src="/img/directories.jpeg">
 
-**/bin** :
+**/bin** : Over here we do find all esentials Commands as ( pwd , clear , passwd, zip , ...... )
 
 **/boot** :
 
@@ -55,7 +55,7 @@
 
 **/opt** :
 
-**/sbin** :
+**/sbin** : Root Commands tht we should execute it as root  as  ( Adduser , ifconfig , userdel ... )
 
 **/srv** :
 
