@@ -39,32 +39,32 @@
 
 **/bin** : Over here we do find all esentials Commands as ( pwd , clear , passwd, zip , ...... )
 
-**/boot** :
+**/boot** : files that ystem need to boot ( inicio )
 
-**/dev** :
+**/dev** :device ( dispositivos ) as hard disk , .....
 
-**/etc** :
+**/etc** : The configuration of the system , over here wher we can configure the network , to check dns , the configuration of DOwnloaded Applicaction , apt , .....
 
-**/home** :
+**/home** : where the users live , basicly is where every created user (included their directories) in the OS located .
 
-**/lib** :
+**/lib** : Library
 
-**/media** :
+**/media** : responsible for the connection with removable devices such as usb 
 
-**/mnt** :
+**/mnt** : here the disks are mounted ( montar los discos )
 
 **/opt** :
 
-**/sbin** : Root Commands tht we should execute it as root  as  ( Adduser , ifconfig , userdel ... )
+**/sbin** : Root Commands tht we should execute it as root  as  ( Adduser , ifconfig , userdel ... ) .
 
 **/srv** :
 
 **/tmp** :
 
-**/usr** :
+**/usr** : we can find games and variables files , for example we have a command ls in /bin so we gonna find him again as the same in /usr/bin 
 
-**/var** :
+**/var** : Variable files
 
-**/root** :
+**/root** : is the Root by himself
 
 **/proc** :
