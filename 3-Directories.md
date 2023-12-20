@@ -37,4 +37,19 @@
 
 <img title="script1" alt="script" src="/img/directories.jpeg">
 
-<img src="directories.jpeg" alt="/img/directories">
+**/bin** :
+**/boot** :
+**/dev** :
+**/etc** :
+**/home** :
+**/lib** :
+**/media** :
+**/mnt** :
+**/opt** :
+**/sbin** :
+**/srv** :
+**/tmp** :
+**/usr** :
+**/var** :
+**/root** :
+**/proc** :
