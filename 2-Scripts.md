@@ -37,3 +37,6 @@ First let's talk about some rules that we have to respect :
   >
   > echo " has sacado $nota "
 
+<img title="script1" alt="script" src="/img/readp.png">
+
+<img title="script1" alt="script" src="/img/valuesresult.png">
