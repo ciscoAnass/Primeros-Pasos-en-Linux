@@ -1,8 +1,5 @@
 # Tar
 
- **TAR** : 
- 
-
 
 | Option  | function  | syntax   | 
 |---|---|---|
