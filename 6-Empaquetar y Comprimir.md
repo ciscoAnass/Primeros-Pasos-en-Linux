@@ -12,7 +12,7 @@
 |  -xvf -C | Extraer el paquete Tar  en otro lado | tar -xvf cv.tar  | 
 
 
-.
+
 
 ***
 # Gzip
@@ -25,7 +25,7 @@
 | gzip -d | decomprimirlo otra vez a fichero normal   |gzip -d anass.html.gz | 
 
 
-.
+
 ***
 
 # ZIP , UNZIP
@@ -37,7 +37,7 @@
 | unzip -v | Visualizar a lo q hay dentro el zip  | unzip -v folder.zip| 
 | unzip -d | decomprimir el fichero zip  | unzip folder.zip -d /home/heidi/carpeta | 
 
-.
+
 ***
 
 # TAR.GZ
@@ -49,11 +49,11 @@
 | tar -zxvf | descomptimir un paquete | tar -zxvf profesores.tar.gz| 
 | tar -zxvf -C / | decomprimir el paquete a un ubicacion exacta  | tar -zxvf profesores.tar.gz -C /home/heidi/1asir | 
 
-.
+
 
 ***
 
-# TAR.GZ
+# TAR.BZ2
 
 | Option  | function  | syntax   | 
 |---|---|---|
