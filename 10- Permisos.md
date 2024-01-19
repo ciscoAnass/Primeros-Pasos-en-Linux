@@ -24,7 +24,8 @@
 |  chmod u  | mandar o quitar los permisos al usuario  | sudo chmod u+rx,u-w fichero1 | 
 |  chmod g  | mandar o quitar permisos al grupo | sudo chmod g+rx,g-w fichero1 | 
 |  chmod o  | mandar o quitar permisos a los otros | sudo chmod o+rx,o-w fichero1 | 
- 
+|  chmod a  | mandar o quitar permisos a todos ( usuarios ,grupos,otros) | sudo chmod a+rx,a-w fichero1 | 
+
  ***
  #  Permisos Numericos
 
