@@ -56,3 +56,12 @@ First let's talk about some rules that we have to respect :
 <img title="script1" alt="script" src="/img/readp.png">
 
 <img title="script1" alt="script" src="/img/valuesresult.png">
+
+***
+# Passwords
+
+
+<img title="scriptpass" alt="script" src="/img/scriptpass.png">
+
+<img title="scriptpass" alt="script" src="/img/scriptpass.png">
+
