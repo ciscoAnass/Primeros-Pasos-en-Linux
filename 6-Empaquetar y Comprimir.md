@@ -1,64 +1,54 @@
-# Tar
+# TAR
 
-
-| Option  | function  | syntax   | 
+| Opción  | Función  | Sintaxis   | 
 |---|---|---|
-| -cvf   | Empaquetar los Ficheros a un fichero unico TAR  | tar -cvf cv.tar anass.pdf ahmed.pdf karima.pdf  | 
-| -tvf  | visualizar lo q hay dentro el ficheero TAR   | tar -tvf cv.tar  | 
-|  -xvf | Extraer el paquete Tar   | tar -xvf cv.tar  | 
-|  -xvf -C | Extraer el paquete Tar  en otro lado | tar -xvf cv.tar  | 
-
-
-
+| -cvf   | Empaquetar archivos en un único archivo TAR  | `tar -cvf curriculo.tar documento1.pdf documento2.pdf documento3.pdf`  | 
+| -tvf  | Visualizar el contenido del archivo TAR   | `tar -tvf curriculo.tar`  | 
+| -xvf | Extraer el contenido del paquete TAR   | `tar -xvf curriculo.tar`  | 
+| -C | Extraer el paquete TAR en una ubicación específica | `tar -xvf curriculo.tar -C /ruta/destino`  | 
 
 ***
+
 # Gzip
 
-| Option  | function  | syntax   | 
+| Opción  | Función  | Sintaxis   | 
 |---|---|---|
-| gzip  | comprimir el fichero y borrarlo | gzip anass.html | 
-| gzip -k | comprimir el fichero y dejarlo tranquilo sin borrarlo   |gzip 0k anass.html  | 
-| gzip -l | Visualizar el fichero comprimido  | gzip -l anass.html.gz  | 
-| gzip -d | decomprimirlo otra vez a fichero normal   |gzip -d anass.html.gz | 
-
-
+| `gzip`  | Comprimir un archivo y eliminar el original | `gzip documento.html` | 
+| `gzip -k` | Comprimir un archivo y mantener el original | `gzip -k documento.html`  | 
+| `gzip -l` | Visualizar el archivo comprimido  | `gzip -l documento.html.gz`  | 
+| `gzip -d` | Descomprimir el archivo a su estado original | `gzip -d documento.html.gz` | 
 
 ***
 
-# ZIP , UNZIP
+# ZIP y UNZIP
 
-| Option  | function  | syntax   | 
+| Opción  | Función  | Sintaxis   | 
 |---|---|---|
-| zip  | comprimir un fichero a ZIP | zip html.zip index.html header.html  | 
-| zip -r | comprimir un directorio a zip |zip -r folder.zip folder  | 
-| unzip -v | Visualizar a lo q hay dentro el zip  | unzip -v folder.zip| 
-| unzip -d | decomprimir el fichero zip  | unzip folder.zip -d /home/heidi/carpeta | 
-
+| `zip`  | Comprimir un archivo en formato ZIP | `zip archivo.zip archivo1.html archivo2.html`  | 
+| `zip -r` | Comprimir un directorio en formato ZIP | `zip -r carpeta.zip carpeta`  | 
+| `unzip -v` | Visualizar el contenido del archivo ZIP  | `unzip -v carpeta.zip`| 
+| `unzip -d` | Descomprimir el archivo ZIP en una ubicación específica | `unzip carpeta.zip -d /home/usuario/carpeta_destino` | 
 
 ***
 
 # TAR.GZ
 
-| Option  | function  | syntax   | 
+| Opción  | Función  | Sintaxis   | 
 |---|---|---|
-| tar -zcvf  | comprimir Y empaquetar un fichero a tar.gz | tar -zcvf profesores.tar.gz manolo.txt maria.txt javier.txt | 
-| tar -ztvf | Visualizar a lo q hay dentro el paquete comprimido tar.gz |tar -ztvf  profesores.tar.gz | 
-| tar -zxvf | descomptimir un paquete | tar -zxvf profesores.tar.gz| 
-| tar -zxvf -C / | decomprimir el paquete a un ubicacion exacta  | tar -zxvf profesores.tar.gz -C /home/heidi/1asir | 
-
-
+| `tar -zcvf`  | Comprimir y empaquetar un archivo en formato tar.gz | `tar -zcvf documentos.tar.gz archivo1.txt archivo2.txt archivo3.txt` | 
+| `tar -ztvf` | Visualizar el contenido del paquete comprimido tar.gz | `tar -ztvf  documentos.tar.gz` | 
+| `tar -zxvf` | Descomprimir un paquete tar.gz | `tar -zxvf documentos.tar.gz` | 
+| `tar -zxvf -C` | Descomprimir el paquete en una ubicación específica | `tar -zxvf documentos.tar.gz -C /home/usuario/carpeta_destino` | 
 
 ***
 
 # TAR.BZ2
 
-| Option  | function  | syntax   | 
+| Opción  | Función  | Sintaxis   | 
 |---|---|---|
-| tar -jcvf  | comprimir Y empaquetar un fichero a tar.bz2 | tar -jcvf profesores.tar.bz2 manolo.txt maria.txt javier.txt | 
-| tar -jtvf | Visualizar a lo q hay dentro el paquete comprimido tar.bz2 |tar -jtvf  profesores.tar.bz2 | 
-| tar -jxvf | descomptimir un paquete | tar -jxvf profesores.tar.bz2 | 
-| tar -jxvf -C / | decomprimir el paquete a un ubicacion exacta  | tar -jxvf profesores.tar.bz2 -C /home/heidi/1asir | 
+| `tar -jcvf`  | Comprimir y empaquetar un archivo en formato tar.bz2 | `tar -jcvf archivos.tar.bz2 archivo1.txt archivo2.txt archivo3.txt` | 
+| `tar -jtvf` | Visualizar el contenido del paquete comprimido tar.bz2 | `tar -jtvf  archivos.tar.bz2` | 
+| `tar -jxvf` | Descomprimir un paquete tar.bz2 | `tar -jxvf archivos.tar.bz2` | 
+| `tar -jxvf -C` | Descomprimir el paquete en una ubicación específica | `tar -jxvf archivos.tar.bz2 -C /home/usuario/carpeta_destino` | 
 
 ***
-
-
