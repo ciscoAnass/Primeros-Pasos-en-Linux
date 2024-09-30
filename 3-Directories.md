@@ -1,68 +1,67 @@
-# Archives 
+# Archivos
 
-**Archive :** is the basic structure used to store information 
+**Archivo:** Es la estructura básica empleada para almacenar información.
 
-**Directory :** is where we store the archives , or we can say that the directory is the container of archives
-
-***
-# Rules to Respect
-
-- In Linux we should respect the format and the name of file or directory , i mean respecting upper case and lower case ( mayúsculas y minúsculas ) , For exmaple we did create a file called **Cisco.txt** and then i did create another one called **cisco.txt** to replace the first one , so Linux does not replace the second file by the first file because he detect that they are different's
- 
-  - The file name in linux cannot exceed 255 characters
- 
-  - The name of a file can use any character, except */* ( slash ) , Although it is not recommended to use:
-    
-**= \ ~ (tilt) “ * # ; - ? [] () ! & <> |** ,  we can use them in the file name but it's not recommendable 
-
+**Directorio:** Se refiere a la ubicación donde se almacenan los archivos; puede considerarse un contenedor para dichos archivos.
 
 ***
 
+# Normas a Seguir
 
-# Types of Archives
+- En Linux, es esencial respetar el formato y los nombres de archivos o directorios, lo que incluye el uso correcto de mayúsculas y minúsculas. Por ejemplo, si creamos un archivo llamado **Cisco.txt** y luego otro llamado **cisco.txt**, Linux no reemplazará el segundo archivo por el primero, ya que los considera distintos.
 
-- **Ordinary files (-)**: They contain text, images, pdf, etc.
+  - El nombre de un archivo en Linux no debe exceder los 255 caracteres.
 
-- **Directories (d)**: Contain other files.
+  - Se permite el uso de casi cualquier carácter en los nombres de archivo, excepto la barra (/). Sin embargo, se recomienda evitar los siguientes caracteres:
 
-- **Devices**: They represent devices.
-**(c)**: Character devices. Example: **Printer**
-**(b)**: Block devices. Example: **Hard drive**
-
- - **Links (l)**: They represent access to other files.
+**= \ ~ (tilde) “ * # ; - ? [] () ! & <> |**. Aunque se pueden utilizar, no es aconsejable.
 
 ***
 
-# Directories Tree
+# Tipos de Archivos
+
+- **Archivos Ordinarios (-):** Contienen datos como texto, imágenes, archivos PDF, entre otros.
+
+- **Directorios (d):** Contienen otros archivos, organizando la estructura de almacenamiento.
+
+- **Dispositivos:** Representan hardware.
+  - **(c):** Dispositivos de carácter, como impresoras.
+  - **(b):** Dispositivos de bloque, como discos duros.
+
+- **Enlaces (l):** Proporcionan acceso a otros archivos.
+
+***
+
+# Estructura de Directorios
 
 <img title="script1" alt="script" src="/img/directories.jpeg">
 
-**/bin** : Over here we do find all esentials Commands as ( pwd , clear , passwd, zip , ...... )
+**/bin:** Contiene comandos esenciales (por ejemplo, pwd, clear, passwd, zip).
 
-**/boot** : files that ystem need to boot ( inicio )
+**/boot:** Almacena los archivos necesarios para el arranque del sistema.
 
-**/dev** :device ( dispositivos ) as hard disk , .....
+**/dev:** Representa dispositivos, como discos duros y otros periféricos.
 
-**/etc** : The configuration of the system , over here wher we can configure the network , to check dns , the configuration of DOwnloaded Applicaction , apt , .....
+**/etc:** Contiene la configuración del sistema, incluyendo redes y aplicaciones instaladas.
 
-**/home** : where the users live , basicly is where every created user (included their directories) in the OS located .
+**/home:** Directorio personal de los usuarios, donde se encuentran sus archivos y configuraciones.
 
-**/lib** : Shared Library files ( libreria compartida)
+**/lib:** Almacena bibliotecas compartidas requeridas por el sistema.
 
-**/media** : responsible for the connection with removable devices such as usb 
+**/media:** Facilita la conexión con dispositivos extraíbles, como unidades USB.
 
-**/mnt** : here the disks are mounted ( montar los discos )
+**/mnt:** Punto de montaje para discos adicionales.
 
-**/opt** :
+**/opt:** Utilizado para instalar software adicional.
 
-**/sbin** : Root Commands tht we should execute it as root  as  ( Adduser , ifconfig , userdel ... ) .
+**/sbin:** Contiene comandos de administración del sistema que requieren privilegios de root (ej. Adduser, ifconfig, userdel).
 
-**/tmp** : Temporary Files
+**/tmp:** Almacena archivos temporales generados por aplicaciones.
 
-**/usr** : we can find games and variables files , for example we have a command ls in /bin so we gonna find him again as the same in /usr/bin 
+**/usr:** Incluye programas y archivos de datos, como el comando ls que también se encuentra en /bin.
 
-**/var** : Variable files
+**/var:** Almacena archivos variables, que cambian con el tiempo.
 
-**/root** : is the Root by himself
+**/root:** Directorio del usuario root.
 
-**/proc** : everything we do for the system is saved there
+**/proc:** Contiene información sobre procesos y el estado del sistema en tiempo real.
