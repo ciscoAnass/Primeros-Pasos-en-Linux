@@ -1,63 +1,57 @@
-# ID
+# Identificación de Usuario
 
-| Option  | function  | syntax   | 
+| Opción  | Función  | Sintaxis   | 
 |---|---|---|
-|  id  | Nos muestra información del identificador del usuario  | id [username] >>>> id ciscoanass | 
+| `id`  | Muestra información del identificador del usuario  | `id [nombre_usuario]` ej: `id ciscoanass` | 
 
 ***
-# Introduccion
-**r** : read >>> leer
-**w** : write >>> escribir
-**x** : execute >>> ejecutar
+# Introducción a Permisos
+- **r** : read (leer)
+- **w** : write (escribir)
+- **x** : execute (ejecutar)
 
-| Permisos  | function  |  
+| Permisos  | Función  |  
 |---|---|
-|  r  | podemos visualizar el directorio sin poder de modificar o eliminar osea solo podemos hacer #ls  |  
-|  w  | podemos escribir y eliminar archivos en el directorio ( debe estar combinada  rw or rwx or rx )  | 
-|  x  | Permite acceder aldirectorio sin pdoder de crear archivos  |  
+|  `r`  | Permite visualizar el contenido del directorio sin modificar o eliminar archivos. Solo se puede usar el comando `ls`. |  
+|  `w`  | Permite escribir y eliminar archivos en el directorio (debe estar combinado con `rw`, `rwx` o `rx`). | 
+|  `x`  | Permite acceder al directorio sin la capacidad de crear archivos. |  
 
 ***
-# dar permisos de manera manual
+# Otorgar Permisos Manualmente
 
-| Option  | function  | syntax   | 
+| Opción  | Función  | Sintaxis   | 
 |---|---|---|
-|  chmod u  | mandar o quitar los permisos al usuario  | sudo chmod u+rx,u-w fichero1 | 
-|  chmod g  | mandar o quitar permisos al grupo | sudo chmod g+rx,g-w fichero1 | 
-|  chmod o  | mandar o quitar permisos a los otros | sudo chmod o+rx,o-w fichero1 | 
-|  chmod a  | mandar o quitar permisos a todos ( usuarios ,grupos,otros) | sudo chmod a+rx,a-w fichero1 | 
+|  `chmod u`  | Otorga o quita permisos al usuario  | `sudo chmod u+rx,u-w fichero1` | 
+|  `chmod g`  | Otorga o quita permisos al grupo | `sudo chmod g+rx,g-w fichero1` | 
+|  `chmod o`  | Otorga o quita permisos a otros | `sudo chmod o+rx,o-w fichero1` | 
+|  `chmod a`  | Otorga o quita permisos a todos (usuarios, grupos, otros) | `sudo chmod a+rx,a-w fichero1` | 
 
  ***
- #  Permisos Numericos
+# Permisos Numéricos
 
-
-| Option  | function  | syntax   | 
+| Opción  | Función  | Sintaxis   | 
 |---|---|---|
-|  chmod 732 |dar permisos de manera numerica a todos incluid los grupos y ...   |sudo chmod 753 >>> rwxr-x-wx | 
+|  `chmod 732` | Otorga permisos numéricos a todos (incluidos grupos y otros)   | `sudo chmod 732` >>> `rwxr-x-wx` | 
 
-
- **Diccionario :** 
- - **r=4** 
+**Diccionario:**
+- **r=4** 
 - **w=2**
-- **x=1** 
+- **x=1**
 
 ***
+# La Máscara (umask)
 
-# La mascara : umask
+**La máscara**: permite establecer permisos predeterminados al crear archivos o directorios.
 
-**La mascara** : es para crear permisos poe defecto sin necesidad a modificar los permisos por cada creacion de ficheros o directorios.
-
-| Option  | function  | syntax   | 
+| Opción  | Función  | Sintaxis   | 
 |---|---|---|
-|  umask  | ver los permisos por defecto | umask | 
-|  umask [num]??????  | modificar los permisos| umask | 
+|  `umask`  | Ver los permisos por defecto | `umask` | 
+|  `umask [num]`  | Modificar los permisos por defecto | `umask [num]` | 
 
 ***
+# Cambiar Propietario y Grupo
 
-
-# chown , chgrp
-
-
-| Option  | function  | syntax   | 
+| Opción  | Función  | Sintaxis   | 
 |---|---|---|
-|  chgrp  | cambiar el grupo del fichero o el directorio | chgrp grp2 fichero1 | 
-|  chown |cambiar el usuario del fichero o el directorio| chown user2 fichero1 | 
+|  `chgrp`  | Cambiar el grupo del archivo o directorio | `chgrp grp2 fichero1` | 
+|  `chown` | Cambiar el usuario del archivo o directorio | `chown user2 fichero1` | 
