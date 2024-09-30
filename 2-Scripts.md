@@ -1,14 +1,23 @@
-  # Scripts
+# Scripts
 
+Primero, hablemos de algunas reglas que debemos respetar:
 
-First let's talk about some rules that we have to respect :
+1. **#!/bin/bash**: Siempre debemos incluir esta línea como la primera en cada archivo de script. Esto indica que el script debe ser ejecutado con el intérprete de Bash.
 
-1-**#!/bin/bash** : we should always put it in every first line of a script file
+2. **.sh**: El archivo de script debe tener siempre la extensión .sh para indicar que es un script de shell.
 
-2-**.sh** : The script file should always done with **.sh**
+3. Para ejecutar el archivo de script, utilizamos el siguiente comando:
 
-3-To execute the Script file we use this command : 
->sh fichero1.sh
+    ```bash
+    ./fichero1.sh
+    ```
+
+   **Nota**: Asegúrate de que el archivo tenga permisos de ejecución. Puedes otorgar permisos con el siguiente comando:
+
+    ```bash
+    chmod +x fichero1.sh
+    ```
+
 
 
 ***
