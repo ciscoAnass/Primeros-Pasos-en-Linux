@@ -21,56 +21,49 @@ Primero, hablemos de algunas reglas que debemos respetar:
 
 
 ***
-## Let's create our first basic Script
+## Vamos a crear nuestro primer script básico
 
 <img title="script1" alt="script" src="/img/script1.png">
 
-- We can see in the picture that we did create a script file and we did put **#!/bin/bash** int eh first line and in the second line i put a comment (author) of the file which is optional , u can put it or no and finally we did put **echo "Hello world"** which mean print hello word so when we execute the script , we get Hello World as the result of execution .
+- En la imagen podemos ver que hemos creado un archivo de script y hemos incluido **#!/bin/bash** en la primera línea. En la segunda línea, agregamos un comentario (autor) del archivo, que es opcional; puedes incluirlo o no. Finalmente, hemos escrito **echo "Hello, World!"**, lo que significa imprimir "Hello, World!". Al ejecutar el script, obtenemos "Hello, World!" como resultado de la ejecución.
 
-<img title="script1" alt="script" src="/img/execscript.png">
-  
-- If we want to skip the line in the text so we do use **\n** ( it's look like <br> in html )
+<img title="execscript" alt="ejecución del script" src="/img/execscript.png">
 
-<img title="script1" alt="script" src="/img/skipline.png">
+- Si queremos insertar una línea en blanco en el texto, usamos **\n** (que es similar a `<br>` en HTML).
+
+<img title="skipline" alt="salto de línea" src="/img/skipline.png">
 
 ***
-# Values
+# Variables
 
 <img title="script1" alt="script" src="/img/allvalues.png">
 
-- TO crate a value we should respect this syntax 'Keyword' = 'Value'
+- Para crear un Variable , debemos seguir esta sintaxis: `'Palabra clave' = 'Valor'`.
 
-  for example
+  Por ejemplo:
 
   > nota=10
   >
-  > echo " has sacado $nota "
+  > echo "Has sacado $nota"
 
+- Al ejecutar el script, el resultado será **Has sacado 10** porque `$nota` ha tomado el valor de 10 previamente.
 
-- SO when we execute the script , the result gonna be **Has sacado 10** because $nota did take the value of 10 before
-- 
 ***
-- As well we have a great tool on Scripting which is **read -p** , this tool is usable for the the automation of changeble value
-  
-- For example : in  company we have more than 40 users ( workers ) and every worker have a different name , and we want to create a script that every time they log-in the script say **( Hello #User , have good day)** , so to do that we dont have to create a 40 script and every script with a user name becuase **read -p** gonna help us
 
-- So we just gonna put
+- También contamos con una excelente herramienta en scripting llamada **read -p**, que es útil para la automatización de valores cambiantes.
 
-  > read -p " What is your username " username
-  > 
-  >echo "Hello $username , have a good day"
+- Por ejemplo: en una empresa tenemos más de 40 usuarios (trabajadores) y cada trabajador tiene un nombre diferente. Si queremos crear un script que, cada vez que inicien sesión, diga **(Hola #Usuario, que tengas un buen día)**, no necesitamos crear 40 scripts, cada uno con un nombre de usuario, porque **read -p** nos ayudará.
 
+- Así que simplemente pondremos:
 
-  so basicly we just ask the user about his username and when he put his username , the script automate the answer to ( hello $username , have a good day ) wich make every worker name automated by answering with his name
+  > read -p "¿Cuál es tu nombre de usuario? " username
+  >
+  > echo "Hola $username, que tengas un buen día."
+
+- Básicamente, solo le preguntamos al usuario por su nombre de usuario y, cuando lo ingresa, el script automatiza la respuesta a **(Hola $username, que tengas un buen día)**, lo que permite que cada trabajador reciba una respuesta automatizada con su nombre.
+
 <img title="script1" alt="script" src="/img/readp.png">
 
 <img title="script1" alt="script" src="/img/valuesresult.png">
 
-***
-# Passwords
-
-
-<img title="scriptpass" alt="script" src="/img/scriptpass.png">
-
-<img title="scriptpass" alt="script" src="/img/scriptpass.png">
 
