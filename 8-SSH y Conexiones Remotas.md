@@ -1,13 +1,5 @@
 # SSH y Conexiones Remotas 🌐🔒
 
-## Índice
-1. [Introducción a SSH](#introducción-a-ssh)
-2. [Configuración de SSH](#configuración-de-ssh)
-3. [Conexión a un servidor remoto](#conexión-a-un-servidor-remoto)
-4. [Transferencia de archivos con SCP](#transferencia-de-archivos-con-scp)
-5. [Túneles SSH](#túneles-ssh)
-6. [Consejos de seguridad](#consejos-de-seguridad)
-
 ## Introducción a SSH
 
 SSH (Secure Shell) es un protocolo de red que permite a los usuarios conectarse de forma segura a sistemas remotos. Es ampliamente utilizado para:
