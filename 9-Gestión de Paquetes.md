@@ -64,7 +64,3 @@ Flatpak:
 flatpak install paquete      # Instala un paquete flatpak
 flatpak uninstall paquete    # Elimina un paquete flatpak
 ```
-
----
-
-🔍 **Próximos pasos**: Descubre cómo [Administrar Usuarios](10-Administracion%20de%20Usuarios.md) en tu sistema Linux.
