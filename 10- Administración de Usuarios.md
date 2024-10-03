@@ -64,7 +64,3 @@ Cambiar la contraseña de un usuario:
 ```bash
 sudo passwd username
 ```
-
----
-
-🔍 **Próximos pasos**: Aprende sobre el [Monitoreo del Sistema](11-Monitoreo%20del%20Sistema.md) para mantener tu Linux funcionando de manera óptima.
