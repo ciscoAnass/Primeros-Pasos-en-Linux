@@ -1,6 +1,6 @@
 # Primeros Pasos en Linux
 
-![Linux Logo](https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg)
+![Linux Logo](https://c4.wallpaperflare.com/wallpaper/902/770/576/linux-tux-simple-minimalism-hd-wallpaper-preview.jpg)
 
 ## Introducción
 
