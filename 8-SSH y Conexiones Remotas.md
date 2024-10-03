@@ -62,7 +62,3 @@ ssh -L puerto_local:host_remoto:puerto_remoto usuario@servidor_ssh
 2. Cambia el puerto SSH predeterminado (22)
 3. Limita el acceso SSH a direcciones IP específicas
 4. Utiliza autenticación de dos factores
-
----
-
-🔍 **Próximos pasos**: Aprende sobre [Gestión de Paquetes](9-Gestion%20de%20Paquetes.md) para mantener tu sistema actualizado y seguro.
