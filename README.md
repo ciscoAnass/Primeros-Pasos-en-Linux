@@ -16,8 +16,8 @@ Bienvenido a "Primeros Pasos en Linux", una guía completa y amigable para princ
 6. [Filtros](6-%20Filtros.md)
 7. [Permisos](7-%20Permisos.md)
 8. [SSH y Conexiones Remotas](8-SSH%20y%20Conexiones%20Remotas.md)
-9. [Gestión de Paquetes](9-Gestion%20de%20Paquetes.md)
-10. [Administración de Usuarios](10-Administracion%20de%20Usuarios.md)
+9. [Gestión de Paquetes](9-Gestión%20de%20Paquetes.md)
+10. [Administración de Usuarios](10-%20Administración%20de%20Usuarios.md)
 11. [Monitoreo del Sistema](11-Monitoreo%20del%20Sistema.md)
 
 ## Cómo usar esta guía
@@ -28,9 +28,6 @@ Cada enlace en la sección de Contenido te llevará a un archivo Markdown detall
 
 ¡Las contribuciones son bienvenidas! Si encuentras errores o tienes sugerencias para mejorar esta guía, no dudes en abrir un issue o enviar un pull request.
 
-## Autor
-
-- **Anass Assim**
 
 ## Licencia
 
